@@ -1,0 +1,117 @@
+/* Header Styling */
+.header {
+    background-color: whitesmoke;
+    color: #0F172B;
+    font-family: "Font Awesome 5 Free";
+    padding: 0.10rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Left Section: Logo and Title */
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between logo and title */
+    flex-wrap: nowrap;
+    justify-content: flex-start; /* Align content to the left */
+  }
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .title-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0F172B;
+    margin: 0;
+  }
+  
+  /* Right Section: Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .social-icon {
+    font-size: 1.4rem;
+    color: #FEA116;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For tablets and smaller screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .header {
+      flex-wrap: wrap;
+      justify-content: space-between; /* Keep left-aligned logo and title */
+      text-align: left; /* Ensure alignment */
+      padding: 1rem 0;
+    }
+  
+    .header-left {
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-bottom: 1rem;
+    }
+  
+    .logo {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .title-name {
+      font-size: 1.8rem;
+    }
+  
+    .social-icons {
+      font-size: 1.2rem;
+      gap: 1rem;
+      justify-content: flex-end; /* Right-align social icons */
+    }
+  }
+  
+  /* For mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start; /* Left-align content */
+      padding: 1rem;
+    }
+  
+    .header-left {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+  
+    .logo {
+      height: 35px;
+      width: 35px;
+    }
+  
+    .title-name {
+      font-size: 1.6rem;
+    }
+  
+    .social-icons {
+      font-size: 1rem;
+      gap: 0.5rem;
+      align-self: flex-end; /* Place icons on the right side */
+    }
+  }
+  

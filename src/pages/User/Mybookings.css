@@ -1,0 +1,142 @@
+.container {
+    max-height: 100%;
+    width: 100%; /* Full width */
+    border-radius: 12px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto; /* Centers the container horizontally */
+    position: relative; /* For better centering context */
+    top: 20px; /* Optional: Adjust the top margin for better visual balance */
+    font-family: "Font Awesome 5 Free";
+    overflow: hidden; /* Avoid overflow issues */
+    max-width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling for small screens */
+    margin-bottom: 20px;
+    border-radius: 12px; /* Matches the container's design */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead th {
+    background-color: #0F172B;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+table tbody td {
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.pending {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    display: block;
+    padding: 8px 12px;
+    background: #f4f4f4;
+    color: #555;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.pagination a:hover {
+    background: #0F172B;
+    color: #fff;
+}
+
+.pagination .active a {
+    background: #0F172B;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-container {
+        border-radius: 8px; /* Smaller corners for smaller screens */
+    }
+
+    table thead th, 
+    table tbody td {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px; /* Reduce padding */
+    }
+
+    .pagination a {
+        padding: 6px 10px; /* Compact pagination for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .header h1 {
+        font-size: 20px; /* Smaller header text */
+    }
+
+    .header p {
+        font-size: 14px; /* Smaller description text */
+    }
+
+    table thead th, 
+    table tbody td {
+        font-size: 13px; /* Further reduction in table text size */
+        padding: 6px; /* Compact padding */
+    }
+
+    .pagination a {
+        padding: 5px 8px; /* More compact pagination */
+    }
+}

@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "email": "user@gmail.com",
+      "password": "User@123"
+    }
+  ],
+  "homecontent": [
+    {
+      "title": "MY BOOKINGS",
+      "description": "My Booking system efficiently manages room reservations, customer details, and payment status with a user-friendly interface, ensuring a smooth experience for both users.",
+      "count": "12",
+      "bgColor": "",
+      "icon": "📖"
+    },
+    {
+      "title": "EVENTS",
+      "description": "The Hotel Event feature streamlines the booking and management of hotel-hosted events, offering customizable options and real-time updates for a seamless experience.",
+      "count": "04",
+      "bgColor": "",
+      "icon": "🎉"
+    },
+    {
+      "title": "OFFERS & PROMOTIONS",
+      "description": "Easily manage and track event bookings with real-time updates and customizable options, ensuring a seamless experience for organizers and participants.",
+      "count": "04",
+      "bgColor": "",
+      "icon": "📖"
+    },
+    {
+      "title": "PAYMENTS",
+      "description": "The Hotel Payment system ensures secure and efficient processing of transactions, offering multiple payment options and instant confirmation for a hassle-free experience.",
+      "count": "16",
+      "bgColor": "",
+      "icon": "💳"
+    }
+  ],
+  "Service": [
+    {
+      "icon": "🏨",
+      "title": "Rooms & Apartment",
+      "description": "The Hotels provide convenience, and a wide range of amenities, and are best suited for short stays. On the other hand, serviced apartments offer a home-like experience, privacy, and cost savings, and are perfect for longer stays, families, and those seeking more independence.",
+      "highlighted": false
+    },
+    {
+      "icon": "💆‍♀️",
+      "title": "Spa & Fitness",
+      "description": "Relax both body and mind and invigorate your senses through massage, aromatherapy, and meditation. For couples, our couple’s chamber features private steam and bath experiences.",
+      "highlighted": false
+    },
+    {
+      "icon": "🏊‍♂️",
+      "title": "Sports & Gaming",
+      "description": "Staying fit and enjoying the holidays are no longer incompatible. Sport or fitness hotels are an answer to the boom in the number of travelers who wish to maintain their workout routine.",
+      "highlighted": false
+    },
+    {
+      "icon": "🎉",
+      "title": "Event & Party",
+      "description": "Hotels can host a variety of events, including corporate conferences, weddings, and social gatherings. Event planners and party organizers can help with the coordination of these events.",
+      "highlighted": false
+    },
+    {
+      "icon": "🏋️‍♂️",
+      "title": "GYM & Yoga",
+      "description": "Fitness is a vital part of many daily routines. Especially when traveling with a family or group, guests may need to fit their workout into the early morning hours to stay on schedule for the day.",
+      "highlighted": false
+    }
+
+  ],
+  "Bookings":
+  [
+    { "no": "01", "name": "Alvin", "phone": "+01 4215 3521", "city": "New York, USA", "arrival": "12 May", "departure": "20 May", "members": "12", "payment": "success" },
+    { "no": "02", "name": "Liam", "phone": "+01 2484 6521", "city": "Bangalore, India", "arrival": "18 Apr", "departure": "24 Apr", "members": "12", "payment": "success" },
+    { "no": "03", "name": "Logan", "phone": "+01 6524 6521", "city": "Los Angeles, USA", "arrival": "05 Dec", "departure": "12 Dec", "members": "12", "payment": "pending" },
+    { "no": "04", "name": "Michael", "phone": "+01 3652 1425", "city": "Bristol, UK", "arrival": "14 Jan", "departure": "24 Jan", "members": "12", "payment": "pending" },
+    { "no": "05", "name": "Alvin", "phone": "+01 4215 3521", "city": "New York, USA", "arrival": "12 May", "departure": "20 May", "members": "12", "payment": "success" },
+    { "no": "06", "name": "Liam", "phone": "+01 2484 6521", "city": "Bangalore, India", "arrival": "18 Apr", "departure": "24 Apr", "members": "12", "payment": "success" },
+    { "no": "07", "name": "Logan", "phone": "+01 6524 6521", "city": "Los Angeles, USA", "arrival": "05 Dec", "departure": "12 Dec", "members": "12", "payment": "pending" },
+    { "no": "08", "name": "Michael", "phone": "+01 3652 1425", "city": "Bristol, UK", "arrival": "14 Jan", "departure": "24 Jan", "members": "12", "payment": "pending" },
+    { "no": "09", "name": "Alvin", "phone": "+01 4215 3521", "city": "New York, USA", "arrival": "12 May", "departure": "20 May", "members": "12", "payment": "success" },
+    { "no": "10", "name": "Liam", "phone": "+01 2484 6521", "city": "Bangalore, India", "arrival": "18 Apr", "departure": "24 Apr", "members": "12", "payment": "success" },
+    { "no": "11", "name": "Logan", "phone": "+01 6524 6521", "city": "Los Angeles, USA", "arrival": "05 Dec", "departure": "12 Dec", "members": "12", "payment": "pending" },
+    { "no": "12", "name": "Michael", "phone": "+01 3652 1425", "city": "Bristol, UK", "arrival": "14 Jan", "departure": "24 Jan", "members": "12", "payment": "pending" }
+  ],
+  
+  "payments": [
+    {
+      "id": 1,
+      "date": "2024-11-01",
+      "amount": 250,
+      "status": "Success",
+      "method": "Credit Card"
+    },
+    {
+      "id": 2,
+      "date": "2024-10-15",
+      "amount": 120,
+      "status": "Pending",
+      "method": "PayPal"
+    },
+    {
+      "id": 3,
+      "date": "2024-10-10",
+      "amount": 500,
+      "status": "Success",
+      "method": "Debit Card"
+    },
+    {
+      "id": 4,
+      "date": "2024-09-25",
+      "amount": 300,
+      "status": "Success",
+      "method": "Credit Card"
+    },
+    {
+      "id": 5,
+      "date": "2024-09-15",
+      "amount": 400,
+      "status": "Failed",
+      "method": "Bank Transfer"
+    },
+    {
+      "id": 6,
+      "date": "2024-08-30",
+      "amount": 200,
+      "status": "Pending",
+      "method": "UPI"
+    }
+  ],
+
+
+  "Booking":[
+    {
+      "id": 1,
+      "customer": "John Cena",
+      "roomType": "Deluxe Suite",
+      "checkIn": "2024-11-18",
+      "checkOut": "2024-11-20",
+      "status": "Confirmed"
+    },
+    {
+      "id": 2,
+      "customer": "Undertaker",
+      "roomType": "Standard Room",
+      "checkIn": "2024-11-19",
+      "checkOut": "2024-11-21",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "customer": "Michael Johnson",
+      "roomType": "Presidential Suite",
+      "checkIn": "2024-11-15",
+      "checkOut": "2024-11-18",
+      "status": "Cancelled"
+    },
+    {
+      "id": 4,
+      "customer": "The Rock",
+      "roomType": "Standard Room",
+      "checkIn": "2024-11-15",
+      "checkOut": "2024-11-18",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "customer": "The Great Khali",
+      "roomType": "Presidential Suite",
+      "checkIn": "2024-11-15",
+      "checkOut": "2024-11-18",
+      "status": "Cancelled"
+    }
+  ]
+}

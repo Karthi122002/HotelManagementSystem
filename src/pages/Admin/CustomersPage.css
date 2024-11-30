@@ -1,0 +1,177 @@
+body {
+  font-family: "Font Awesome 5 Free";
+    background-color: #f8f1e7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .customers-page {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-customer-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-customer-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .customers-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customers-table th,
+  .customers-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .customers-table th {
+    background-color: #f5f5f5;
+    color: #2c3e50;
+  }
+  
+  .customers-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .customers-table .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .customers-table .status.active {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .customers-table .status.inactive {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+  }
+  
+
+  .edit-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-btn,
+  .cancel-btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  

@@ -1,0 +1,98 @@
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  font-family: "Font Awesome 5 Free";
+  
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  font-family: "Font Awesome 5 Free";
+  color: white;
+
+}
+
+.button-group {
+  margin-top: 1.5rem;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.our-rooms {
+  background-color: #fea116;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+
+}
+
+.book-room {
+  background-color: #ffffff;
+  color: black;
+  font-family: "Font Awesome 5 Free";
+
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* src/components/Homepage.css */
+
+.carousel-container {
+  width: 100%;
+  /* max-width: 1200px; Adjust as needed */
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(16, 1, 27);
+  font-size: x-large;
+  /* font-weight: bolder; */
+  padding: 10px;
+  font-family: "Font Awesome 5 Free";
+
+}
+
+.carousel-item .carousel-img {
+  width: 100%;
+  height: 545px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fills the container without stretching */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%; /* Make it round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Align middle with top 50% */
+}
+
+.carousel-control-prev {
+  left: 15px; /* Space from the left side */
+}
+
+.carousel-control-next {
+  right: 15px; /* Space from the right side */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 50%; /* Make the arrow icon smaller */
+}

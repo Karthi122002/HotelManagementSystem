@@ -1,0 +1,158 @@
+.about-section {
+  display: flex;
+  flex-wrap: wrap; /* Allows content and images to stack on smaller screens */
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #f9f9f9;
+  font-family: "Font Awesome 5 Free";
+  gap: 2rem;
+}
+
+.about-content {
+  max-width: 67%;
+  text-align: center;
+}
+
+.about-heading {
+  color: #fea116;
+  font-size: 1.80rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #0F172B;
+}
+
+.about-title span {
+  color: #fea116;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.stats-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap; /* Ensures stats stack on smaller screens */
+}
+
+.stat-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 150px; /* Ensures cards maintain a minimum width */
+}
+
+.stat-card .icon {
+  font-size: 4rem;
+  color: #fea116;
+  margin-bottom: 0.5rem;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.explore-button {
+  background-color: #fea116;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.explore-button:hover {
+  opacity: 0.9;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-content, .image-gallery {
+    max-width: 80%; /* Adjusts width for medium screens */
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .stats-container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    max-width: 90%; /* Further reduces content width on smaller screens */
+  }
+
+  .stats-container {
+    flex-direction: column; /* Stacks stats vertically */
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr; /* Single-column layout for images */
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-description {
+    font-size: 0.9rem;
+  }
+
+  .stat-card {
+    min-width: 100%; /* Full-width cards */
+  }
+
+  .image-gallery img {
+    height: 150px; /* Reduces image height on very small screens */
+  }
+}

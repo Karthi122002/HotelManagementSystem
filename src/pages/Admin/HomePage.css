@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+  font-family: "Font Awesome 5 Free";
+  background-color: #f8f1e7; /* Light ivory background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Page container */
+.stat-grid-home-page {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Stats grid container */
+.stat-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  width: 100%;
+  max-width: 1450px;
+  
+}
+
+/* Stat item styling */
+.stat-grid-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #ddd; /* Separator line */
+  background-color: #fff;
+
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Hover effect on stat items */
+.stat-grid-item:hover {
+  background-color: #f0e5da; /* Slightly darker on hover */
+}
+
+/* Icon container */
+.stat-grid-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* White icon color */
+  font-size: 50px; /* Large icon size */
+  border-radius: 8px; /* Slightly rounded corners */
+  margin-right: 15px;
+}
+
+/* Stat information container */
+.stat-grid-info {
+  text-align: left;
+}
+
+/* Stat title text */
+.stat-grid-title {
+  margin: 0;
+  font-size: 16px;
+  color: #555; /* Medium gray */
+}
+
+/* Stat value text */
+.stat-grid-value {
+  margin: 5px 0 0;
+  font-size: 20px;
+  color: #222; /* Dark gray */
+}

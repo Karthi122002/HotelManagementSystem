@@ -1,0 +1,185 @@
+/* Footer General Styling */
+.footer {
+    background-color: #1a1a1a; /* Updated background color */
+    color: #f4f1f1;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: "Font Awesome 5 Free";
+    padding: 20px 0; /* Added padding for spacing */
+}
+
+.footer h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Links in Footer */
+.footer .btn-link {
+    color: #aaa;
+    text-decoration: none;
+    padding: 0;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer .btn-link:hover {
+    color: #fff;
+}
+
+/* Contact Section Icons */
+.footer .fa {
+    color: #aaa;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.footer .fa:hover {
+    color: #fff;
+}
+
+/* Social Media Icons */
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center; /* Centered for responsiveness */
+}
+
+.footer-social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.footer-social-icon:hover {
+    background-color: #FEA116;
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+/* Newsletter Section */
+.footer .form-control {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.footer .form-control::placeholder {
+    color: #aaa;
+}
+
+.footer .btn-primary {
+    background-color: #FEA116;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.footer .btn-primary:hover {
+    background-color: #f9a11e;
+}
+
+/* Footer Menu */
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 15px;
+    justify-content: center; /* Center align links */
+    margin-top: 15px;
+}
+
+.footer-menu a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #fff;
+}
+
+/* Responsive Design */
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; /* Center align all content */
+        padding: 20px;
+    }
+
+    .footer h4 {
+        margin-bottom: 15px;
+    }
+
+    .footer .col-lg-3 {
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+
+    .footer-social-icons {
+        justify-content: center; /* Center the social icons */
+    }
+
+    .footer-menu {
+        margin-top: 15px;
+        flex-direction: column; /* Stack links vertically */
+        align-items: center;
+    }
+
+    .footer-menu a {
+        margin-bottom: 10px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer h4 {
+        font-size: 16px; /* Smaller font size for headings */
+    }
+
+    .footer .btn-link {
+        font-size: 13px; /* Adjust link size for readability */
+    }
+
+    .footer .form-control {
+        padding: 8px 12px; /* Smaller input padding */
+    }
+
+    .footer .btn-primary {
+        padding: 8px 15px; /* Adjust button padding */
+        font-size: 13px; /* Smaller button text */
+    }
+
+    .footer-social-icons {
+        gap: 8px; /* Reduced spacing between icons */
+    }
+
+    .footer-social-icon {
+        width: 35px;
+        height: 35px; /* Smaller icons for compact layout */
+        font-size: 16px;
+    }
+
+    .footer-menu {
+        flex-direction: column; /* Stack links vertically */
+        align-items: center;
+    }
+}

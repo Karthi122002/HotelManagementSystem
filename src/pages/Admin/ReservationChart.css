@@ -1,0 +1,85 @@
+/* Container Styling */
+.reservations-chart-container {
+    max-width: 1450px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: "Font Awesome 5 Free";
+    overflow: hidden;
+    
+  }
+  
+  /* Title Styling */
+  .chart-title {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  
+  /* Chart Container Styling */
+  .chart-canvas-container {
+    height: 300px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Form Styling */
+  .data-form {
+    margin-top: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* Add spacing between form items */
+    flex-wrap: wrap;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    flex-direction: column; /* Label and input stacked */
+    flex: 1; /* Allow labels to expand equally */
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Full width input */
+  }
+  
+  .add-data-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #6f42c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0; /* Prevent button shrinking */
+  }
+  
+  .add-data-btn:hover {
+    background-color: #5a359e;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .add-data-btn {
+      width: 100%; /* Button takes full width on small screens */
+    }
+  }
+  

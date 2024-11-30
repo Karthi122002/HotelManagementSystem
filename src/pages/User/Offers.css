@@ -1,0 +1,74 @@
+.offers-container {
+    padding: 30px;
+    font-family: "Font Awesome 5 Free";
+    background-color: #fafafa; /* Light background */
+    max-width: 95%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Softer shadow for light theme */
+}
+
+.offers-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5f6368; /* Soft dark gray color */
+    margin-bottom: 20px;
+}
+
+.offers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between each offer */
+}
+
+.offer-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff; /* White background for offers */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.offer-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow on hover */
+}
+
+.offer-image-container {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.offer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.offer-details {
+    flex: 2;
+}
+
+.offer-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fea116; /* Keep the original gold color */
+    margin: 0 0 10px;
+}
+
+.offer-description {
+    font-size: 16px;
+    color: #777; /* Light gray for description */
+    margin-bottom: 10px;
+}
+
+.offer-validity {
+    font-size: 14px;
+    color: #888; /* Light gray for validity text */
+}

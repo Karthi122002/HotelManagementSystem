@@ -1,0 +1,133 @@
+/* Rooms Section */
+.rooms-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: "Font Awesome 5 Free";
+}
+
+.rooms-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.rooms-section p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Rooms Grid */
+.rooms-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* Room Card */
+.room-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 340px;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* .room-card:hover {
+  transform: translateY(-5px);
+} */
+
+.room-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  padding: 0 1rem;
+  color: #0F172B;
+  font-weight: bold;
+}
+
+.room-card p {
+  font-size: 1rem;
+  margin: 0.5rem 1rem;
+  color: #666;
+}
+
+.room-price {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0.5rem 1rem;
+}
+
+.book-now-button {
+  display: block;
+  background-color: #0F172B;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* .book-now-button:hover {
+  background-color: #e0366b;
+} */
+
+/* Additional Image Styling */
+.home-pic {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  /* Adjust room card width and grid layout for tablets */
+  .room-card {
+    width: 45%; /* 2 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust room card width and grid layout for mobile devices */
+  .room-card {
+    width: 100%; /* 1 card per row */
+  }
+  
+  .rooms-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .rooms-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust room card width and grid layout for very small screens */
+  .room-card {
+    width: 100%; /* 1 card per row */
+  }
+  
+  .rooms-section h2 {
+    font-size: 1.6rem;
+  }
+  
+  .rooms-section p {
+    font-size: 0.9rem;
+  }
+}
